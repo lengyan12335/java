@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class aaac {
+    public static void main(String[] args) {
+        System.out.println("请输入用户密码");
+        var sc = new Scanner(System.in);
+        String password = sc.nextLine();
+        if (password=="jsu12345")
+
+
+            System.out.println("输入密码与设置密码一致，可以进入系统啦！");
+        else
+            System.out.println("输入密码与设置密码不一致，请重新输入密码！");
+            System.out.println("你还有2此机会输入密码");
+    }
+}
