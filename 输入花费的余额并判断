@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class aab
+{
+    public static void main(String[] args) {
+        System.out.println("请输入花费余额");
+        var sc = new Scanner(System.in);
+        int age = sc.nextInt();
+        if(age<10)
+            System.out.println("余额age元，余额不足10元，请及时充值");
+        else
+            System.out.println("余额age元，余额充足，请放心是使用");
+    }
+}
